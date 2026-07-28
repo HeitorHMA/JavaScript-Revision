@@ -20,6 +20,10 @@ A minimal repository dedicated to practical revision and consolidation of core W
 
 - [x] Grammar and types (`var`,`let`,`const`) & Scope
 - [x] Variable Hoisting Behaviour
+- [x] Functions (Traditional vs Arrow Functions `() => {}`)
+- [x] Callbacks & Parameters
+- [x] Promises (`resolve`, `reject`, `.then()`, `.catch()`)
+- [x] Asynchronous JavaScript (`async` / `await` & `setTimeout`)
 
 ### 🛠️ Git & Best Practices
 
