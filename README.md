@@ -1,43 +1,43 @@
 # 📚 Web Development Study & Revision
 
-A minimal repository dedicated to practical revision and consolidation of core Web Development concepts (Backend, Frontend, and Databases).
+A minimal repository dedicated to practical revision and consolidation of core Web Development concepts.
 
 ---
 
 ## 🚀 Tech Stack
 
-<p align="left">
-  <img align="center" alt="PostgreSQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
-  <img align="center" alt="TailwindCSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg">
-  <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-  <img align="center" alt="JWT" height="30" width="40" src="https://cdn.simpleicons.org/jsonwebtokens/000000">
-</p>
+**Frontend:** HTML5, CSS3, JavaScript, Tailwind CSS  
+**Backend & Database:** PostgreSQL, REST API, JWT  
+**Tools:** Git, Node.js
 
 ---
 
 ## 📑 Covered Topics
 
-- [x] **PostgreSQL:** Complex queries, JOINs, and database indexing.
-- [x] **JWT:** Authentication flows, token generation, and secure validation.
-- [x] **REST API:** Standard HTTP methods, routing, and middleware structure.
-- [x] **Tailwind CSS:** Responsive layouts and custom UI components.
-- [ ] **Git:** Conventional commits and branching strategies.
+### 🌐 HTML5 Essentials
+- [x] Semantic structure (`<header>`, `<nav>`, `<main>`, `<footer>`)
+- [x] Forms & Inputs (`input`, `select`, `textarea`, `button`)
+- [x] Core Attributes (`id`, `class`, `data-*`)
+
+### ⚡ JavaScript
+- [x] Basic syntax & DOM manipulation
+- [ ] Async / Await & Fetch API
 
 ---
 
 ## 💻 Getting Started
 
 ### Prerequisites
-* Node.js v18+
-* PostgreSQL running locally
+* A modern web browser (Google Chrome, Firefox, or Edge)
+* Node.js (v18 or higher)
 
 ### Local Setup
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone [https://github.com/HeitorHMA/Web-Development-Revision.git](https://github.com/HeitorHMA/Web-Development-Revision.git)
 
 # 2. Navigate into the directory
-cd your-repo-name
+cd Web-Development-Revision
 
 # 3. Install dependencies
 npm install
