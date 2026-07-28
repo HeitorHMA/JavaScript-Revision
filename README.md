@@ -20,9 +20,9 @@ A minimal repository dedicated to practical revision and consolidation of core W
 
 - [x] Grammar and types (`var`,`let`,`const`) & Scope
 - [x] Variable Hoisting Behaviour
-- [x] Functions (`Arrow Functions`, `Callback`)
+- [x] Functions (`Arrow Functions`,`Callback`)
 - [x] Callbacks & Parameters
-- [x] Arrays(`map()`, `reduce()`,`filter()`)
+- [x] Arrays(`map()`,`reduce()`,`filter()`&`find()`)
 - [x] Promises (`resolve`, `reject`, `.then()`, `.catch()`)
 - [x] Asynchronous JavaScript (`async` / `await` & `setTimeout`)
 
