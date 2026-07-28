@@ -1,6 +1,6 @@
 let test = "Testing variables";
 const cantChange = "This variable can't change";
-var shouldNotUse = "Should not use var to declare variables";
+var shouldNotUse = "Should not use var to declare variables"; // Using var is not recommended since it can have security issues when acessing variables in their scope //
 
 function firstCall() {
   console.log(test);
@@ -10,15 +10,20 @@ function firstCall() {
 
 function changeTest() {
   test = "Changed";
-  console.log(test);
+  console.log(test); // Works fine since let can be changed //
 }
 
 function changeCantChange() {
   cantChange = "Changed";
-  console.log(cantChange); // Should throw an error since consts cant be changed//
+  console.log(cantChange); // Should throw an error since consts cant be changed //
 }
 
-function changeTest() {
-  test = "Changed";
-  console.log(test);
+function changeShouldNotUse() {
+  shouldNotUse = "Changed me too";
+  console.log(shouldNotUse);
 }
+
+firstCall();
+changeTest();
+//changeCantChange(); -> Caused an error as expected//
+changeShouldNotUse();
