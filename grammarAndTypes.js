@@ -29,6 +29,6 @@ firstCall();
 changeTest();
 //changeCantChange(); -> Caused an error as expected//
 changeShouldNotUse();
-
+testingVarScope();
 var testingVar =
   "This variable is created after the console.log, but since it is an Var it should appear anywayS";
