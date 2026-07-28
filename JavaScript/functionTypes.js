@@ -14,20 +14,17 @@ async function one() {
 one();
 */
 //Promises
-const promiseTest = new Promise((resolve, reject) => {
-  let OrderNumber = Math.floor(Math.random() * 10);
-  let itemBought = OrderNumber;
-  if (itemBought >= 5) {
-    resolve("resolvido");
-  } else {
-    reject("rejeitado");
-  }
-  console.log(OrderNumber);
-});
-promiseTest
-  .then((message) => {
-    console.log(message);
-  })
-  .catch((message) => {
-    console.log(message);
+function generateRandomNumber() {
+  return new Promise((resolve) => {
+    let randomNumber = Math.floor(Math.random() * 10);
+    setTimeout(() => {
+      resolve(randomNumber);
+    }, 2000);
   });
+}
+async function loadNUmber() {
+  console.log("generating number...");
+  const number = await generateRandomNumber();
+  console.log(number);
+}
+loadNUmber();
