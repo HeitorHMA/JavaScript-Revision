@@ -23,6 +23,7 @@ A minimal repository dedicated to practical revision and consolidation of core W
 - [x] Functions (`Arrow Functions`,`Callback`)
 - [x] Callbacks & Parameters
 - [x] Arrays(`map()`,`reduce()`,`filter()`&`find()`)
+- [x] Objects(`Destructuring`,`Properties` & `Object Array`)
 - [x] Promises (`resolve`, `reject`, `.then()`, `.catch()`)
 - [x] Asynchronous JavaScript (`async` / `await` & `setTimeout`)
 
