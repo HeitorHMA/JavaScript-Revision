@@ -5,15 +5,8 @@ function normalOne() {
 let arrowTest = () => {
   console.log("this is the arrow one");
 };
-/* Async
-async function one() {
-  console.log("loading");
-  await 2000;
-  console.log(1);
-}
-one();
-*/
-//Promises
+
+//Promises and Async
 function generateRandomNumber() {
   return new Promise((resolve) => {
     let randomNumber = Math.floor(Math.random() * 10);
