@@ -6,8 +6,8 @@ A minimal repository dedicated to practical revision and consolidation of core W
 
 ## 🚀 Tech Stack
 
-**Frontend:** HTML5, CSS3, JavaScript, Tailwind CSS  
-**Backend & Database:** PostgreSQL, REST API, JWT  
+**Frontend:** JavaScript
+**Backend & Database:**  
 **Tools:** Git, Node.js
 
 ---
@@ -16,14 +16,15 @@ A minimal repository dedicated to practical revision and consolidation of core W
 
 ### 🌐 HTML5 Essentials
 
-- [x] Semantic structure (`<header>`, `<nav>`, `<main>`, `<footer>`)
-- [x] Forms & Inputs (`input`, `select`, `textarea`, `button`)
-- [x] Core Attributes (`id`, `class`, `data-*`)
-
 ### ⚡ JavaScript
 
-- [x] Basic syntax & DOM manipulation
-- [x] Async / Await & Fetch API
+- [x] Grammar and types (`var`,`let`,`const`) & Scope
+- [x] Variable Hoisting Behaviour
+
+### 🛠️ Git & Best Practices
+
+- [x] Conventional Commits standard (feat,docs,fix)
+- [x] Basic Git workflow (add, commit, push)
 
 ---
 
