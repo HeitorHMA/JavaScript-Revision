@@ -1,7 +1,9 @@
 let test = "Testing variables";
 const cantChange = "This variable can't change";
 var shouldNotUse = "Should not use var to declare variables"; // Using var is not recommended since it can have security issues when acessing variables in their scope //
-
+function testingVarScope() {
+  console.log(testingVar);
+}
 function firstCall() {
   console.log(test);
   console.log(cantChange);
@@ -27,3 +29,6 @@ firstCall();
 changeTest();
 //changeCantChange(); -> Caused an error as expected//
 changeShouldNotUse();
+
+var testingVar =
+  "This variable is created after the console.log, but since it is an Var it should appear anywayS";
