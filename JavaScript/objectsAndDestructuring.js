@@ -10,7 +10,7 @@ console.log(user.name);
 
 const { name, email, age, active } = user; //Unpacking and turning those those properties into variables of this scope
 
-const users = [
+export const users = [
   { id: 1, name: "Peter", active: true },
   { id: 2, name: "Billie", active: false },
   { id: 3, name: "John", active: true },
