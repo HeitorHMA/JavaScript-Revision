@@ -11,3 +11,9 @@ h1 {
   width: 200px;
   height: 100px;
 }
+#span1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  color: red;
+  font-style: italic;
+}
