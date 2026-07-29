@@ -23,6 +23,11 @@ A minimal repository dedicated to practical revision and consolidation of core W
 
 ### CSS3
 
+- Box Model (`padding`,`border` & `margin`)
+- Selectors (`.`,`#` & `>`)
+- Flexbox (`display:flex`,`justify-content` & `align-items`)
+- CSS Grid (`display: grid`,`grid-template-columns` & `gap`)
+
 ### JavaScript
 
 - Grammar and types (`var`,`let`,`const`) & Scope
