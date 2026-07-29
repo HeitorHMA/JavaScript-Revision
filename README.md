@@ -1,46 +1,48 @@
-# 📚 Web Development Study & Revision
+# Web Development Study & Revision
 
 A minimal repository dedicated to practical revision and consolidation of core Web Development concepts.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
-**Frontend:** JavaScript
+**Frontend:** JavaScript, HTML, CSS
 **Backend & Database:**  
 **Tools:** Git, Node.js
 
 ---
 
-## 📑 Covered Topics
+## Covered Topics
 
-### 🌐 HTML5 Essentials
+### HTML5 Essentials
 
-- [x] Syntax and basic elements (`header`, `nav`,`main`,`footer`,`article`& `section`)
-- [x] Forms (`input`, `textarea`,`select`&`button`)
-- [x] Attributes (`id`, `class`,`type`&`button`)
-- [x] Basic elements (`h1-h6`, `p`,`div`,`span`,`div`,`span`,`img`,`ul`,`ol`&`li`)
+- Semantic HTML (`header`, `nav`,`main`,`footer`,`article`& `section`)
+- Forms (`input`, `textarea`,`select`&`button`)
+- Attributes (`id`, `class`,`type`&`button`)
+- Basic elements (`h1-h6`, `p`,`div`,`span`,`div`,`span`,`img`,`ul`,`ol`&`li`)
 
-### ⚡ JavaScript
+### CSS3
 
-- [x] Grammar and types (`var`,`let`,`const`) & Scope
-- [x] Variable Hoisting Behaviour
-- [x] Functions (`Arrow Functions`,`Callback`)
-- [x] Callbacks & Parameters
-- [x] Modules (`Import` & `Export`)
-- [x] Arrays(`map()`,`reduce()`,`filter()`&`find()`)
-- [x] Objects(`Destructuring`,`Properties` & `Object Array`)
-- [x] Promises (`resolve`, `reject`, `.then()`, `.catch()`)
-- [x] Asynchronous JavaScript (`async` / `await` & `setTimeout`)
+### JavaScript
 
-### 🛠️ Git & Best Practices
+- Grammar and types (`var`,`let`,`const`) & Scope
+- Variable Hoisting Behaviour
+- Functions (`Arrow Functions`,`Callback`)
+- Callbacks & Parameters
+- Modules (`Import` & `Export`)
+- Arrays(`map()`,`reduce()`,`filter()`&`find()`)
+- Objects(`Destructuring`,`Properties` & `Object Array`)
+- Promises (`resolve`, `reject`, `.then()`, `.catch()`)
+- Asynchronous JavaScript (`async` / `await` & `setTimeout`)
 
-- [x] Conventional Commits standard (feat,docs,fix)
-- [x] Basic Git workflow (add, commit, push)
+### Git & Best Practices
+
+- Conventional Commits standard (feat,docs,fix)
+- Basic Git workflow (add, commit, push)
 
 ---
 
-## 💻 Getting Started
+## Getting Started
 
 ### Prerequisites
 
