@@ -16,6 +16,11 @@ A minimal repository dedicated to practical revision and consolidation of core W
 
 ### 🌐 HTML5 Essentials
 
+- [x] Syntax and basic elements (`header`, `nav`,`main`,`footer`,`article`& `section`)
+- [x] Forms (`input`, `textarea`,`select`&`button`)
+- [x] Attributes (`id`, `class`,`type`&`button`)
+- [x] Basic elements (`h1-h6`, `p`,`div`,`span`,`div`,`span`,`img`,`ul`,`ol`&`li`)
+
 ### ⚡ JavaScript
 
 - [x] Grammar and types (`var`,`let`,`const`) & Scope
