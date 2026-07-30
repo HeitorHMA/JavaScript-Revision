@@ -141,3 +141,24 @@ header {
   display: flex;
   justify-content: center;
 }
+#randomFaceGeneratorForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#randomFaceGeneratorDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#randomFaceGeneratorDiv > #card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 20px;
+}

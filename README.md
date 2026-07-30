@@ -40,6 +40,7 @@ A minimal repository dedicated to practical revision and consolidation of core W
 - Promises (`resolve`, `reject`, `.then()`, `.catch()`)
 - Asynchronous JavaScript (`async` / `await` & `setTimeout`)
 - DOM Manipulation (`querySelector`,`addEventListener` & `InnerHTML`)
+- Fetch API (`POST`,`GET` & `DELETE`)
 
 ### Git & Best Practices
 
