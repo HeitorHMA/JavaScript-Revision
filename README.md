@@ -34,7 +34,7 @@ A minimal repository dedicated to practical revision and consolidation of core W
 - Variable Hoisting Behaviour
 - Functions (`Arrow Functions`,`Callback`)
 - Callbacks & Parameters
-- Modules (`Import` & `Export`)
+- Modules (`Import`,`Export`,`${}` & `...`)
 - Arrays(`map()`,`reduce()`,`filter()`&`find()`)
 - Objects(`Destructuring`,`Properties` & `Object Array`)
 - Promises (`resolve`, `reject`, `.then()`, `.catch()`)
