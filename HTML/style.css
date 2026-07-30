@@ -91,6 +91,52 @@ img {
   padding-bottom: 20px;
   cursor: grab;
 }
+#submitButton {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  width: 100%;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+#submitButton:hover {
+  background-color: rgb(12, 85, 220);
+}
+.submitClass {
+  display: flex;
+  flex-direction: column;
+}
+#wordInput {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  max-width: 100%;
+  background-color: rgb(177, 196, 233);
+  max-width: 100%;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#wordInput::placeholder {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
 header {
   display: flex;
   justify-content: center;
