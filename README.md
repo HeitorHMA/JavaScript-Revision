@@ -39,6 +39,7 @@ A minimal repository dedicated to practical revision and consolidation of core W
 - Objects(`Destructuring`,`Properties` & `Object Array`)
 - Promises (`resolve`, `reject`, `.then()`, `.catch()`)
 - Asynchronous JavaScript (`async` / `await` & `setTimeout`)
+- DOM Manipulation (`querySelector`,`addEventListener` & `InnerHTML`)
 
 ### Git & Best Practices
 
