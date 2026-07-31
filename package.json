@@ -1,0 +1,20 @@
+{
+  "name": "web-development-revision",
+  "version": "1.0.0",
+  "description": "A minimal repository dedicated to practical revision and consolidation of core Web Development concepts.",
+  "homepage": "https://github.com/HeitorHMA/Web-Development-Revision#readme",
+  "bugs": {
+    "url": "https://github.com/HeitorHMA/Web-Development-Revision/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeitorHMA/Web-Development-Revision.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
