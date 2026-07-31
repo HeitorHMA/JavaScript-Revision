@@ -44,6 +44,16 @@ A minimal repository dedicated to practical revision and consolidation of core W
 
 ### Node.JS
 
+- Package Manager (npm init, package.json & package-lock.json)
+
+- Dependencies Management (npm install & node_modules)
+
+- Version Control Rules (.gitignore)
+
+- Automation & Executables (scripts & npm start / npm run)
+
+- Environment Variables (.env, dotenv & process.env)
+
 ### Git & Best Practices
 
 - Conventional Commits standard (feat,docs,fix)
