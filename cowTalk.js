@@ -1,4 +1,5 @@
 const cowSay = require("cowsay");
+const emojiRegex = require("emoji-regex");
 console.log(
   cowSay.say({
     text: "I'm Learning Node.JS",
@@ -6,3 +7,5 @@ console.log(
     T: "U",
   }),
 );
+const emojiTest = require("emoji-regex");
+console.log(emojiTest);
