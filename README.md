@@ -42,6 +42,8 @@ A minimal repository dedicated to practical revision and consolidation of core W
 - DOM Manipulation (`querySelector`,`addEventListener` & `InnerHTML`)
 - Fetch API (`POST`,`GET` & `DELETE`)
 
+### Node.JS
+
 ### Git & Best Practices
 
 - Conventional Commits standard (feat,docs,fix)
