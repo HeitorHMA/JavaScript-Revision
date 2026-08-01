@@ -4,6 +4,7 @@ const port = 2400;
 
 app.get("/", (req, res) => {
   res.send("TUNTUNTUN SAHUR");
+  const productArray = ["bag", "ball", "doll", "videogame"];
 });
 
 app.listen(port, () => {
