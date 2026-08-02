@@ -50,6 +50,14 @@ A minimal repository dedicated to practical revision and consolidation of core W
 - Automation & Executables (scripts & npm start / npm run)
 - Environment Variables (.env, dotenv & process.env)
 
+### Express.JS
+
+- Create App (`const app=express()`)
+- HTTP Methods (`GET`, `POST`, `PUT` & `DELETE`)
+- Response status (`res.status().json`)
+- Request body (`req.body`)
+- Start Server (`app.listen(PORT)`)
+
 ### Git & Best Practices
 
 - Conventional Commits standard (feat,docs,fix)
