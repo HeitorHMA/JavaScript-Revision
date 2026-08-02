@@ -14,13 +14,12 @@ app.get("/", (req, res) => {
   console.log("posted");
 });*/
 
-app.put("/:index", (req, res) => {
+app.delete("/:index", (req, res) => {
   const index = req.params.index;
-  const newName = req.body.name;
-  productArray[index] = newName;
+  productArray.splice(index, 1);
   res.status(200).json(productArray);
   console.log(
-    `Array Updated, element : ${newName} added to array at index : ${index}`,
+    `Array Updated, element : ${productArray[index]} was successfully deleted`,
   );
 });
 
