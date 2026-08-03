@@ -58,6 +58,10 @@ A minimal repository dedicated to practical revision and consolidation of core W
 - Request body (`req.body`)
 - Start Server (`app.listen(PORT)`)
 
+### PostgreSQL
+
+- Install (`npm install pg`)
+
 ### Git & Best Practices
 
 - Conventional Commits standard (feat,docs,fix)
