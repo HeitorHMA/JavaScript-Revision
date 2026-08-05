@@ -9,12 +9,20 @@ const pool = new Pool({
   port: process.env.DB_PORT,
 });
 
-pool.connect((err) => {
-  if (err) {
-    console.error("not working", err.stack);
-  } else {
-    console.log("working");
+async function createTable() {
+  const querySQL = `
+  CREATE TABLE IF NOT EXISTS products (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) NOT NULL, 
+  price NUMERIC(10, 2) NOT NULL);`;
+  try {
+    await pool.query(querySQL);
+    console.log(`table created`);
+  } catch (error) {
+    console.error(`error`, error.message);
+  } finally {
+    await pool.end();
   }
-});
-
+}
 module.exports = pool;
+createTable();
