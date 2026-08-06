@@ -30,7 +30,7 @@ app.get("/products", async (req, res) => {
     const result = await pool.query("SELECT * FROM products;");
     res.json(result.rows);
   } catch (error) {
-    res.status(500).json({ erro: "Error while searching products" });
+    res.status(500).json({ error: "Error while searching products" });
   }
 });
 app.post("/products", async (req, res) => {
