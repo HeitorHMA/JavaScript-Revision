@@ -26,6 +26,14 @@ async function startDataBase() {
 startDataBase();
 
 app.get("/products", async (req, res) => {
+  try {
+    const result = await pool.query("SELECT * FROM products;");
+    res.json(result.rows);
+  } catch (error) {
+    res.status(500).json({ erro: "Error while searching products" });
+  }
+});
+app.post("/products", async (req, res) => {
   const { name, price } = req.body;
 
   try {
@@ -59,4 +67,7 @@ app.put("/products/:id", async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: "error while updating product" });
   }
+});
+app.listen(3000, () => {
+  console.log("server launched at http://localhost:300 ");
 });
